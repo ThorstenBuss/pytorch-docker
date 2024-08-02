@@ -4,4 +4,3 @@ RUN conda install -y -c conda-forge -c comet_ml h5py scikit-learn scipy matplotl
 RUN pip install torchtestcase
 RUN pip install git+https://github.com/ThorstenBuss/nflows.git@707e933c254ce05adff9e482394ac4aaeb3b6a72
 RUN pip install git+https://github.com/crowsonkb/k-diffusion.git@0c6cc822e050e59d3e59128c57d350074969b267
-RUN ln -sf /bin/zsh /bin/sh
